@@ -30,9 +30,8 @@ body {
   align-items: center;
 }
 
-.content {
+.body {
   display: flex;
-  flex-direction: row;
   flex: 1;
 }
 
@@ -41,12 +40,10 @@ body {
   background: royalblue;
   box-sizing: border-box;
   padding: 16px;
-  max-width: 300px;
   flex-shrink: 0;
-  display: flex;
 }
 
-.card-container {
+.container {
   display: flex;
   padding: 48px;
   gap: 32px;
